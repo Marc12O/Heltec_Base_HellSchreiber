@@ -45,17 +45,20 @@ int tijd =0;
 void loop() {
   heltec_loop();
   
-  both.println("Sending Hell data ... ");
+  both.println("Sending Hell OOK data ... ");
 
   int i, len;
   
   char hellstring[] = "PA9MG TEST A QUICK BROWN FOX JUMPS OVER THE LAZY DOG K";
 
   len = strlen(hellstring);
-  for (i=0;i<len;i++)
+  for (i = 0; i < len; i++) {
     hell.write(hellstring[i]);
-
-  both.println("HellSchreiber done!");
+    heltec_led(50);
+    delay(50);
+    heltec_led(0);
+  }
+  both.println("HellSchreiber OOK done!");
 
   tijd = tijd + 60000;
   both.print("Seconds pause: ");
