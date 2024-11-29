@@ -1,3 +1,7 @@
 # Heltec_Base_HellSchreiber
 
-Original is from the RadioLib
+Originals are example from Heltec_Unofficial (Rop Gongrijp) and the RadioLib (Jan Gromeš)
+
+I just combined some things
+
+Thank You Rop and Jan!
