@@ -1,5 +1,7 @@
 # Heltec_Base_HellSchreiber
 
+For Heltec V3 LoRa boards (868 MHz or 915 MHz range)
+
 Originals are example from Heltec_Unofficial (Rop Gongrijp) and the RadioLib (Jan Gromeš)
 
 I just combined some things
